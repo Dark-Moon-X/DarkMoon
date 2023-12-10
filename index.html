@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" />
+    <meta charset="UTF-8">
+    <title>Dark Moon Cybersecurity by Mehdi Boutayeb Ferkatou</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Dark Moon Project GNU</h1>
+      <h2 class="project-tagline">DARK MOON Cybersecurity for Microsoft Windows</h2>
+      <a href="https://bitbucket.org/dark-moon-cybersecurity/darkmoonv1.0.4/" class="btn">View on BitBucket</a>
+      <a href="https://www.dark-moon.org/dark-moon-cybersecurity/1.0.4/DarkMoon-Cybersecurity.exe" class="btn">Download</a>     
+    </section>
+
+    <section class="main-content">
+
+
+
+<h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of Contents</h2>
+
+<ul>
+<li><a href="https://www.dark-moon.org/" >Dark Moon website</a></li>
+<li><a href="#Project-description">Project description</a></li>
+<li><a href="#versions">versions</a></li>
+<li><a href="#Install-the-project">Install the project</a></li>
+<li><a href="#Install-pentest-tool">Install Pentest tool</a></li>
+<li><a href="#List-of-pentest-tools">List of pentest tools</a></li>
+<li><a href="#List-of-linux-commands">List of linux commands</a></li>
+<li><a href="#Add-programs">Add programs</a></li>
+<li><a href="#Software-launch-mode">Software launch mode</a></li>
+<li><a href="#Darkmoon-in-the-Windows-command-line">Darkmoon in the Windows command line</a></li>
+<li><a href="#FAQs">FAQs</a></li>
+<li><a href="#Screenshots">Screenshots</a></li>
+<li><a href="#Updates">Updates</a></li>
+<li><a href="Privacy_Policy.html">Privacy Policy (for Microsoft Store only)</a></li>
+<li><a href="#License">License</a></li>
+<li><a href="dark-moon-103.html">Old documentation for Dark Moon 1.0.3</a></li>
+</ul>
+
+<h2>   
+<a id="Project-description" class="anchor" href="#Project-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project description<a name="Project description"></a>
+</h2>
+
+<p>Dark Moon Cybersecurity is a GNU/Cygwin portable distribution dedicated to advanced security audits and security auditing with WSL’s independent Windows Linux tools.</p>
+<p>Dark Moon Cybersecurity pre-onboards more than a hundred popular Linux tools dedicated to IT security and pentesting , developed since 2013 by Mehdi Boutayeb Ferkatou for Windows 10 and Windows Server 2016 integrating XFCE and Bash and for Windows 2000/XP/2003/2008/7/8, Windows Server 2008/2012/2012 R2 not integrating XFCE but integrating Bash</p>
+<p>Dark Moon is the only embedded subsystem emulating POSIX functionalities thanks to the Cygwin.dll.</p>
+<p>This project is the only Linux distribution independent of the Microsoft WSL (Windows Subsystem for Linux) to be deployed on the Microsoft Store today.</p>
+<p>The Dark Moon subsystem is easy to install, you have nothing to configure beforehand as it is the case with the Linux subsystems available on the Microsoft store this strengthens the intuitive side of this software.</p>
+<p>Dark Moon integrates a wide range of computer security tools from the Linux universe such as Vulnerability scanner, Network security toolkit, Framework security toolkit, Digital Forensics tools, Network monitoring security scanner & proxy tools, OSINT toolkit, Mapping tools and web scan, Password vulnerability management tools.</p>
+<p>But also development tools (Nano, Vim...) compilers (gcc, g++....), interpreted languages (Python, Perl, Ruby...) and Unix administration tools without being limited.</p>
+<p>For more information, visit: https://www.dark-moon.org/</p>
+
+
+
+
+<h2>   
+<a id="versions" class="anchor" href="#versions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>versions<a name="versions"></a>
+</h2>
+      <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>There are 2 versions of this software:</h4>
+
+      <ul class="task-list">
+      <li>A console version running directly from cmd.exe:</li>
+	  <p>This version of Dark Moon is nomadic (portable), you can move the software directory anywhere, including on a USB drive or portable hard drive.</p>
+	  <p>For example, you can consider installing and running an SSH server on your USB drive from Darkmoon.</p>
+      <li>A version incorporating an XFCE 4 graphic environment</li>
+	  <p>For example, you can consider installing and running an SSH server on your USB drive from Darkmoon.</p>
+      </ul>
+
+
+
+
+<h2>
+<a id="Install-the-project" class="anchor" href="#Install-the-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install the project:<a name="Install-the-project"></a>
+</h2>
+
+<p>If you have downloaded the archive from Bitbucket, simply extract it and click on the "unix-compiled-files" directory and launch "DarkMoon-Cybersecurity.exe"</p>
+<p>De-archiving and installation will be done without human intervention.</p>
+<p>If you have downloaded the executable Setup, run it, a terminal window will open to extract cygwin packages and configuration files automatically, and will also generate the current user session.</p>
+<p>If you downloaded Dark Moon from the Microsoft Store, the installation is also automated, a terminal window will also open to download the original setup and automatically install Dark Moon Cybersecurity</p>
+
+<h2>
+  <a id="Install-pentest-tool" class="anchor" href="#Install-pentest-tool" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install Pentest tool:<a name="Install-the-project"></a>
+</h2>
+
+<p>Step 1:</p>
+<p>After installation, this terminal window will open:</p>
+
+<pre>
+  .. Version 1.0.4...............By Mehdi Boutayeb - ASC   .
+  *              __...__                           o
+             .--'    __.=-.
+      |    ./     .-'       *             o
+     -O-   /      /              _          _
+      |   /   '''/   |        __| |__ _ _ _| |__
+         |     (@)  -O-      / _` / _` | '_| / /
+        |        \   |       \__,_\__,_|_| |_\_\
+        |         \           _ __  ___  ___ _ _
+        |       ___\         | '  \/ _ \/ _ \ ' \
+  *     |  .   /  `          |_|_|_\___/\___/_||_|
+         \  `~~\ *
+          \     \                Dark Moon GNU     |
+          `\    `-.__            Version 1.0.4    -O-
+     *       `--._    `--=.                        |
+                  `---~~`                *
+                          *                         *
+
+.. DARK MOON for Microsoft Windows(c). GNU licensed       ..
+.. COMP:  Win32  CLI:  Bash  LIC  GPLv2  For:  WinNT .......
+...........................................................
+
+[1].Start an XFCE session
+[2].Start terminal
+[3].Enable Security auditing toolkit
+[4].Exit DarkMoon 
+</pre>
+<p>To run extract and install all pentest tools type "3"</p>
+<p>Step 2:</p>
+<pre>When you select option n°3, a prevention message will open, to continue extracting pentest tools, type "Y"</pre>
+<p>Many pentest tools can generate security alerts since they can be used as hacking tools.</p>
+<p>When installing Pentest tools, Windows Defender may trigger alerts. We recommend to disable it, However, this will not affect the installation. Continue installation ? (Y/N):</p>
+
+<h2>
+  <a id="List-of-pentest-tools" class="anchor" href="#List-of-pentest-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of pentest tools<a name="List-of-linux-commands"></a>
+</h2>
+
+<h3> Pentest Framework</h3>
+
+<ul>
+<li><a href="https://github.com/jseidl/GoldenEye" target="_blank">GoldenEye</a></li>
+<li><a href="https://commixproject.com/" target="_blank">Commix</a></li>
+<li><a href="https://sqlmap.org/" target="_blank">Sqlmap</a></li>
+<li><a href="https://subgraph.com/vega/" target="_blank">Vega</a></li>
+</ul>
+
+<h3>Osint:</h3>
+
+<ul>
+<li><a href="https://owasp.org/www-project-amass/" target="_blank">Amass</a></li>
+<li><a href="https://github.com/androguard/androguard" target="_blank">Androguard</a></li>
+<li><a href="https://github.com/maaaaz/androwarn" target="_blank">Androwarn</a></li>
+<li><a href="https://github.com/omriher/CapTipper" target="_blank">CapTipper</a></li>
+<li><a href="https://github.com/dionach/CMSmap" target="_blank">CMSmap</a></li>
+<li><a href="https://github.com/iphelix/dnschef" target="_blank">Dnschef</a></li>
+<li><a href="https://salsa.debian.org/pkg-security-team/dnsrecon" target="_blank">Dnsrecon</a></li>
+<li><a href="https://github.com/SamJoan/droopescan" target="_blank">Droopescan</a></li>
+<li><a href="https://salsa.debian.org/pkg-security-team/dsniff" target="_blank">Dsniff</a></li>
+<li><a href="https://github.com/frdmn/findmyhash" target="_blank">Findmyhash</a></li>
+<li><a href="https://github.com/golismero/golismero" target="_blank">Golismero</a></li>
+<li><a href="https://github.com/vergl4s/instarecon" target="_blank">Instarecon</a></li>
+<li><a href="https://github.com/OWASP/joomscan" target="_blank">OWASP-Joomla</a></li>
+<li><a href="https://github.com/AonCyberLabs/PadBuster" target="_blank">PadBuster</a></li>
+<li><a href="https://github.com/sherlock-project/sherlock" target="_blank">Sherlock</a></li>
+<li><a href="https://github.com/smicallef/spiderfoot" target="_blank">Spiderfoot</a></li>
+<li><a href="https://github.com/aboul3la/Sublist3r" target="_blank">Sublist3r</a></li>
+<li><a href="http://www.tekdefense.com/automater/" target="_blank">TekDefense-Automater</a></li>
+<li><a href="https://github.com/laramies/theHarvester" target="_blank">TheHarvester</a></li>',
+</ul>
+
+<h3>Mapping and Web Scan:</h3>
+
+<ul>
+<li><a href="https://apktool.org/" target="_blank">Apktool</a></li>
+<li><a href="https://www.lemondedupc.fr/article/53-skipfish-un-scanner-de-vulnerabilite-pour-les-sites-web-developpe-par-google" target="_blank">Skipfish</a></li>
+<li><a href="https://salsa.debian.org/pkg-security-team/dirsearch" target="_blank">Dirsearch</a></li>
+<li><a href="https://owasp.org/projects" target="_blank">DirBuster</a></li>
+<li><a href="https://github.com/aboul3la/Sublist3r" target="_blank">Sublist3r</a></li>
+<li><a href="http://www.tekdefense.com/automater/" target="_blank">TekDefense-Automater</a></li>
+<li><a href="https://github.com/laramies/theHarvester" target="_blank">TheHarvester</a></li>
+<li><a href="https://github.com/wpscanteam/wpscan" target="_blank">Wpscan</a></li>
+</ul>
+
+
+<h3>Vulnerability Scanner:</h3>
+
+<ul>
+<li><a href="https://github.com/sullo/nikto" target="_blank">Nikto</a></li>
+<li><a href="https://github.com/rbsec/sslscan" target="_blank">Sslscan</a></li>
+<li><a href="https://github.com/nabla-c0d3/sslyze" target="_blank">Sslyze</a></li>
+<li><a href="https://github.com/TheRook/subbrute" target="_blank">Subbrute</a></li>
+<li><a href="https://portswigger.net/burp" target="_blank">BurpSuite</a></li>
+<li><a href="http://www.tekdefense.com/automater/" target="_blank">TekDefense-Automater</a></li>
+<li><a href="https://github.com/laramies/theHarvester" target="_blank">TheHarvester</a></li>
+<li><a href="https://github.com/wpscanteam/wpscan" target="_blank">Wpscan</a></li>
+</ul>
+
+<h3>Network Monitor & Proxys:</h3>
+
+<ul>
+<li><a href="https://www.ettercap-project.org/" target="_blank">EttercapNG</a></li>
+<li><a href="https://salsa.debian.org/debian/hping3" target="_blank">Hping</a></li>
+<li><a href="https://salsa.debian.org/rfrancoise/ngrep" target="_blank">Ngrep</a></li>
+<li><a href="https://www.netresec.com/?page=NetworkMiner" target="_blank">NetworkMiner</a></li>
+<li><a href="https://github.com/SpiderLabs/Responder" target="_blank">Responder</a></li>
+<li><a href="https://www.wireshark.org/download.html" target="_blank">Wireshark</a></li>
+<li><a href="https://nc110.sourceforge.io/" target="_blank">Netcat</a></li>
+<li><a href="https://www.tcpdump.org/" target="_blank">TCP Dump</a></li>
+<li><a href="https://github.com/angryip/ipscan" target="_blank">Ipscan</a></li>
+<li><a href="https://nmap.org/" target="_blank">Nmap</a></li>
+<li><a href="https://www.ibm.com/docs/fr/networkmanager/4.2.0?topic=reference-snmpwalk" target="_blank">Snmpwalk</a></li>
+<li><a href="https://www.winpcap.org/windump/" target="_blank">Windump</a></li>
+</ul>
+
+<h3>System and Network Intrusion Tool:</h3>
+
+<ul>
+<li><a href="https://www.aircrack-ng.org/" target="_blank">Aircrack</a></li>
+<li><a href="hhttps://github.com/Neo23x0/Loki" target="_blank">Loki</a></li>
+<li><a href="https://github.com/AndroBugs/AndroBugs_Framework" target="_blank">AndroBugs</a></li>
+<li><a href="https://github.com/maaaaz/impacket-examples-windows" target="_blank">Impacket</a></li>
+</ul>
+
+<h3>Bruteforce:</h3>
+
+<ul>
+<li><a href="https://salsa.debian.org/pkg-security-team/fcrackzip" target="_blank">Fcrackzip</a></li>
+<li><a href="https://hashcat.net/hashcat/" target="_blank">Hashcat</a></li>
+<li><a href="https://www.openwall.com/john/" target="_blank">Johntheripper</a></li>
+<li><a href="https://github.com/maaaaz/thc-hydra-windows" target="_blank">THC-Hydra-Windows</a></li>
+<li><a href="https://github.com/hatRiot/clusterd" target="_blank">Clusterd</a></li>
+<li><a href="http://project-rainbowcrack.com/" target="_blank">Rainbowcrack</a></li>
+<li><a href="https://github.com/OWASP/vbscan" target="_blank">Vbscan</a></li>
+<li><a href="https://nmap.org/" target="_blank">Nmap</a></li>
+</ul>
+
+<h3>System and Forensics Analysis Tool:</h3>
+
+<ul>
+<li><a href="https://www.7-zip.org/download.html" target="_blank">7zip</a></li>
+<li><a href="https://www.google.fr/" target="_blank">Binwalk</a></li>
+<li><a href="https://github.com/ReFirmLabs/binwalk" target="_blank">Radare2</a></li>
+<li><a href="https://github.com/wireghoul/dotdotpwn" target="_blank">Dotdotpwn</a></li>
+<li><a href="https://www.dumpzilla.org/" target="_blank">Dumpzilla</a></li>
+<li><a href="https://github.com/kurobeats/fimap" target="_blank">Fimap</a></li>
+<li><a href="http://www.javadecompilers.com/jad" target="_blank">Jad</a></li>
+<li><a href="http://java-decompiler.github.io/" target="_blank">Jd-gui</a></li>
+<li><a href="https://www.ollydbg.de/" target="_blank">Ollydbg</a></li>
+<li><a href="https://blog.didierstevens.com/programs/pdf-tools/" target="_blank">Pdf-parser</a></li>
+<li><a href="https://eternal-todo.com/tools/peepdf-pdf-analysis-tool" target="_blank">Peepdf</a></li>
+<li><a href="https://github.com/joxeankoret/pyew" target="_blank">Pyew</a></li>
+<li><a href="https://github.com/kevthehermit/RATDecoders" target="_blank">RATDecoders</a></li>
+<li><a href="http://www.rekall-forensic.com/" target="_blank">Rekall</a></li>
+<li><a href="https://github.com/1d8/sedoppkit" target="_blank">Sedoppkit</a></li>
+<li><a href="http://www.octetmalin.net/linux/tutoriels/sslstrip.php" target="_blank">Sslstrip</a></li>
+<li><a href="https://steghide.sourceforge.net/download.php" target="_blank">Steghide</a></li>
+<li><a href="https://www.bolet.org/TestSSLServer/" target="_blank">Testsslserver</a></li>
+<li><a href="https://github.com/volatilityfoundation/volatility" target="_blank">Volatility</a></li>
+<li><a href="https://github.com/simsong/bulk_extractor" target="_blank">Bulk_extractor</a></li>
+<li><a href="https://github.com/AndroBugs/AndroBugs_Framework" target="_blank">Android-security</a></li>
+<li><a href="https://github.com/Konloch/bytecode-viewer" target="_blank">Bytecode-viewer</a></li>
+<li><a href="https://sourceforge.net/projects/dex2jar/" target="_blank">Dex2jar</a></li>
+<li><a href="https://sourceforge.net/projects/jadx.mirror/" target="_blank">Jadx</a></li>
+<li><a href="https://gitlab.com/kalilinux/packages/javasnoop" target="_blank">JavaSnoop</a></li>
+<li><a href="https://www.google.fr/" target="_blank">Smali</a></li>
+<li><a href="https://github.com/JesusFreke/smali" target="_blank">Pdfid</a></li>
+<li><a href="https://gitlab.com/kalilinux/packages/hash-identifier" target="_blank">Hashidentifier</a></li>
+<li><a href="https://www.ibm.com/docs/fr/networkmanager/4.2.0?topic=reference-snmpwalk" target="_blank">Snmpwalk</a></li>
+<li><a href="https://blog.didierstevens.com/programs/pdf-tools/" target="_blank">Make-pdf</a></li>
+<li><a href="https://github.com/JakeWharton/pidcat" target="_blank">Pidcat</a></li>
+<li><a href="https://github.com/maaaaz/impacket-examples-windows" target="_blank">Impacket</a></li>
+</ul>
+
+
+
+<h2>
+<a id="List-of-linux-commands" class="anchor" href="#List-of-linux-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of linux commands<a name="List-of-linux-commands"></a>
+</h2>
+<p>Here is the list of commands available on the terminal:</p>
+
+<pre>
+Voi job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+Voi job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+Voi job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+</pre>
+
+<h2>   
+<a id="Add-programs" class="anchor" href="#Add-programs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add programs<a name="Add-programs"></a>
+</h2>
+<p>You can add other programs with the following tools:</p>
+<pre>
+git 
+wget 
+setup-x86_64 (packages available on cygwin mirror sites are fully compatible with Darkmoon as it is emulated by cygwin dll)
+</pre>
+
+<h2>   
+<a id="Software-launch-mode" class="anchor" href="#Software-launch-mode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software launch mode<a name="Software-launch-mode"></a>
+</h2>
+      <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>There are 2 versions of this software:</h4>
+      <ul class="task-list">
+	  <p>A console version running directly from cmd.exe:</p>
+      <li>to run cmd type "cmd"</li>
+	  <p></p>
+	  <pre>
+      .. Version 1.0.4...............By Mehdi Boutayeb - ASC   .
+      *              __...__                           o
+                 .--'    __.=-.
+          |    ./     .-'       *             o
+         -O-   /      /              _          _
+          |   /   '''/   |        __| |__ _ _ _| |__
+             |     (@)  -O-      / _` / _` | '_| / /
+            |        \   |       \__,_\__,_|_| |_\_\
+            |         \           _ __  ___  ___ _ _
+            |       ___\         | '  \/ _ \/ _ \ ' \
+      *     |  .   /  `          |_|_|_\___/\___/_||_|
+             \  `~~\ *
+              \     \                Dark Moon GNU     |
+              `\    `-.__            Version 1.0.4    -O-
+         *       `--._    `--=.                        |
+                      `---~~`                *
+                              *                         *
+    
+    .. DARK MOON for Microsoft Windows(c). GNU licensed       ..
+    .. COMP:  Win32  CLI:  Bash  LIC  GPLv2  For:  WinNT .......
+    ...........................................................
+    
+    [1].Start an XFCE session
+    [2].Start terminal
+    [3].Enable Security auditing toolkit
+    [4].Exit DarkMoon
+2
+
+Admin@DESKTOP-70FKMR6 ~
+$ cmd
+Microsoft Windows [version 10.0.17134.885]
+(c) 2018 Microsoft Corporation. Tous droits réservés.
+
+C:\Darkmoon\home\Admin>
+	  </pre>
+      <li>to run PowerShell type "powershell"</li>
+	  <p></p>
+	  <pre>
+      .. Version 1.0.4...............By Mehdi Boutayeb - ASC   .
+      *              __...__                           o
+                 .--'    __.=-.
+          |    ./     .-'       *             o
+         -O-   /      /              _          _
+          |   /   '''/   |        __| |__ _ _ _| |__
+             |     (@)  -O-      / _` / _` | '_| / /
+            |        \   |       \__,_\__,_|_| |_\_\
+            |         \           _ __  ___  ___ _ _
+            |       ___\         | '  \/ _ \/ _ \ ' \
+      *     |  .   /  `          |_|_|_\___/\___/_||_|
+             \  `~~\ *
+              \     \                Dark Moon GNU     |
+              `\    `-.__            Version 1.0.4    -O-
+         *       `--._    `--=.                        |
+                      `---~~`                *
+                              *                         *
+    
+    .. DARK MOON for Microsoft Windows(c). GNU licensed       ..
+    .. COMP:  Win32  CLI:  Bash  LIC  GPLv2  For:  WinNT .......
+    ...........................................................
+    
+    [1].Start an XFCE session
+    [2].Start terminal
+    [3].Enable Security auditing toolkit
+    [4].Exit DarkMoon
+2
+
+Admin@DESKTOP-70FKMR6 ~
+$ powershell
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+PS C:\Darkmoon\home\Admin>
+	  </pre>
+      </ul>
+<h2>   
+<a id="Darkmoon-in-the-Windows-command-line" class="anchor" href="#Darkmoon-in-the-Windows-command-line" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Darkmoon in the Windows command line<a name="Darkmoon-in-the-Windows-command-line"></a>
+</h2>
+      <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Launch Bash and XFCE from cmd and powershell</h4>
+
+      <ul class="task-list">
+	  <p></p>
+      <li>To do this, type in the console:</li>
+	  <p></p>
+	  
+<pre>cd %systemdrive%/Darkmoon</pre>
+<pre>start_xfce</pre>
+
+	  <p>And to start a bash session, type this:</p>
+	  <p></p>
+
+<pre>cd %systemdrive%/Darkmoon</pre>
+<pre>start_bash</pre>
+
+	  <p>You can also choose to launch the menu by typing this on the console:</p>
+
+<pre>cd %systemdrive%/Darkmoon</pre>
+<pre>Darkmoon</pre> 
+
+      </ul>
+	  
+<h2>   
+<a id="apt-cyg" class="anchor" href="#apt-cyg" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>apt-cyg<a name="apt-cyg"></a>
+</h2>
+      <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install and run cyg-apt:</h4>
+
+      <ul class="task-list">
+	  <p></p>
+      <li>Download apt-cyg with the wget command:</li>
+	  <p></p>
+	  
+<pre>$ wget https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg</pre>
+<p>You will obtain this:</p>
+<pre>
+--2019-07-26 20:19:24--  https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
+Résolution de raw.githubusercontent.com (raw.githubusercontent.com)… 151.101.120.133
+Connexion à raw.githubusercontent.com (raw.githubusercontent.com)|151.101.120.133|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 13765 (13K) [text/plain]
+Sauvegarde en : « apt-cyg.1 »
+
+apt-cyg.1                     100%[=================================================>]  13,44K  --.-KB/s    ds 0,03s
+
+2019-07-26 20:19:25 (396 KB/s) — « apt-cyg.1 » sauvegardé [13765/13765]
+</pre>
+
+	  <p>After downloading cyg-apt, you need to do a CHMOD:</p>
+	  <p></p>
+
+<pre>chmod +x apt-cyg</pre>
+<p>And finally, you will have to do a mv:</p>
+<p></p>
+<pre>mv apt-cyg /usr/local/bin</pre>
+<p>Here are all the command arguments for apt-cyg:</p>
+<p></p>
+<pre>
+$ apt-cyg
+NAME
+  apt-cyg - package manager utility
+
+SYNOPSIS
+  apt-cyg [operation] [options] [targets]
+
+DESCRIPTION
+  apt-cyg is a package management utility that tracks installed packages on a
+  Cygwin system. Invoking apt-cyg involves specifying an operation with any
+  potential options and targets to operate on. A target is usually a package
+  name, file name, URL, or a search string. Targets can be provided as command
+  line arguments.
+
+OPERATIONS
+  install
+    Install package(s).
+
+  remove
+    Remove package(s) from the system.
+
+  update
+    Download a fresh copy of the master package list (setup.ini) from the
+    server defined in setup.rc.
+
+  download
+    Retrieve package(s) from the server, but do not install/upgrade anything.
+
+  show
+    Display information on given package(s).
+
+  depends
+    Produce a dependency tree for a package.
+
+  rdepends
+    Produce a tree of packages that depend on the named package.
+
+  list
+    Search each locally-installed package for names that match regexp. If no
+    package names are provided in the command line, all installed packages will
+    be queried.
+
+  listall
+    This will search each package in the master package list (setup.ini) for
+    names that match regexp.
+
+  category
+    Display all packages that are members of a named category.
+
+  listfiles
+    List all files owned by a given package. Multiple packages can be specified
+    on the command line.
+
+  search
+    Search for downloaded packages that own the specified file(s). The path can
+    be relative or absolute, and one or more files can be specified.
+
+  searchall
+    Search cygwin.com to retrieve file information about packages. The provided
+    target is considered to be a filename and searchall will return the
+    package(s) which contain this file.
+
+  mirror
+    Set the mirror; a full URL to a location where the database, packages, and
+    signatures for this repository can be found. If no URL is provided, display
+    current mirror.
+
+  cache
+    Set the package cache directory. If a file is not found in cache directory,
+    it will be downloaded. Unix and Windows forms are accepted, as well as
+    absolute or regular paths. If no directory is provided, display current
+    cache.
+
+OPTIONS
+  --nodeps
+    Specify this option to skip all dependency checks.
+
+  --version
+    Display version and exit.
+
+</pre> 
+
+      </ul>
+
+<h2>
+<a id="FAQs" class="anchor" href="#FAQs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQs<a name="FAQs"></a>
+</h2>
+
+<p>What is the difference between Darkmoon and Windows Subsystem for Linux (WSL 2)?</p>
+
+<blockquote>
+
+<p>The Microsoft subsystem is a Linux kernel integrated with Windows however, WSL requires very low level virtualization to work.</p>
+<p>WSL is not Open Source, it is a proprietary technology that only works on Windows 10.</p>
+<p>The difference with Darkmoon is that the software is a port of Linux programs on Windows.</p>
+<p>The development tools built into Darkmoon will build you a Windows executable, while WSL will build you a Linux executable.</p>
+<p>It may happen that the resulting Linux executable will not run properly on WSL.</p>
+<p>Also, unlike the WSL, you can run . exe and access all the files in the kernel, something that is not yet possible with WSL/Bash due to the security of Windows 10.</p>
+<p>The last difference is that Darkmoon is a "portable" kernel, you can transport it to any folder or device that can run on versions prior to Windows 10</p>
+
+
+</blockquote>
+
+<p>What is the difference between the Darkmoon version available on Github and the Microsoft Store ?</p>
+
+<blockquote>
+
+<p>Darkmoon UWP (Microsoft Store) does not require any human intervention for the installation and everything is automated, from the moment the user clicks on "upload" to the moment XFCE launches.</p>
+<p>With the Microsoft Store version, the user will run a Microsoft-approved version for Windows 10</p>
+
+<p>The application will install on a predefined folder (%systemdrive/Linux).</p>
+
+<p>With the Win32 version, the user can modify the installation program to install it in the installation directory of his choice.</p>
+
+</blockquote>
+
+
+
+
+<h2>
+<a id="Screenshots" class="anchor" href="#Screenshots" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Screenshots<a name="Screenshots"></a>
+</h2>
+
+<p><img src="" alt="Screenshot of DarkMoon"></p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Dark-moon-cybersecurity-terminal.jpg" alt="dark moon cybersecurity terminal"></p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Dark_moon_cygwin_terminal.png" alt="dark moon cygwin terminal"></p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dark_moon_xfce.png" alt="dark moon xfce"></p>
+
+
+
+
+<h2>
+<a id="Updates" class="anchor" href="#Updates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Updates<a name="Updates"></a>
+</h2>
+
+<table>
+<thead>
+<tr>
+<th>Versions</th>
+<th>Date</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0.4</td>
+<td>2023-09-30</td>
+<td>Added pentest tools, package refactoring, xfce portability, installer overhaul</td>
+</tr> 
+<tr>
+<td>1.0.3</td>
+<td>2019-06-29</td>
+<td>Added xfce4-session, gcc-objc, gcc-objc++ ,gcc-fortrangtk+,wget, tcl, rsync, perl, grep, OpenSSL</td>
+</tr>
+<tr>
+<td>1.0.2</td>
+<td>2018-08-01</td>
+<td>Added C, C ++, Ada and Python compilers,OpenSSH,make, nano and vim, mc...</td>
+</tr>
+<tr>
+<td>1.0.1</td>
+<td>2013-01-12</td>
+<td>DarkMoon created.</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="Privacy-Policy-(for-Microsoft-Store-only)" class="anchor" href="#Privacy-Policy-(for-Microsoft-Store-only)" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Privacy Policy (for Microsoft Store only)<a name="Privacy-Policy-(for-Microsoft-Store-only)"></a>
+</h2>
+<a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Darkmoon accesses the following features of your computer:</h4>
+
+    <ul class="task-list">
+	<li>Mac & TCP IP address</li>
+	<li>Access to the Internet</li>
+	<li>Set of files present in the user session</li>
+	<li>Can read & write on files create & delete files present in the user session.</li>
+	<li>No data is collected by MBK Software, everything is processed locally on the user’s machine.</li>
+    </ul>
+<h2>
+<a id="License" class="anchor" href="#License" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License<a name="License"></a>
+</h2>
+
+<p> Code released under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU License</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Dark-Moon-X/DarkMoonV1.0.3/">DarkMoon</a> is maintained by <a href="https://linuxfr.org/news/dark-moon-une-distribution-gnu-cygwin-portable-pour-windows">Mehdi Boutayeb Ferkatou</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com/">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+
+</html>
